@@ -108,7 +108,7 @@ This matters only if generating new flags, not for decryption.
 
 ![flagManager Class Details](./img/flagManager4.png)
 
-I noticed that `retrieve_flag(flag)` decrypts and returns the flag directly. Based on the names from `encrypted_db.json`, I was able to test:
+I noticed that `retrieve_flag(flag)` decrypts and returns the flag directly. Based on the names from `encrypted_db.json`, after some hit and miss, I was able to understand how I could interact with the flagManager class:
 
 ```python
 import flagManager
