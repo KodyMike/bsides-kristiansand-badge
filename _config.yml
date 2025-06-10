@@ -1,0 +1,5 @@
+title: "BSides Badge Writeup"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
