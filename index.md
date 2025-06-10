@@ -60,7 +60,7 @@ I identified two key files:
 1. `encrypted_db.json` – stores encrypted flags and their names
 2. `flagManager.py` – contains logic for encrypting, decrypting, and handling flag data
 
-and later i ran
+And later, I opened `encrypted_db.json`, as shown in the above image.
 ```python
 with open("encrypted_db.json") as f:
 print(f.read())
