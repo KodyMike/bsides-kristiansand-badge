@@ -1,5 +1,4 @@
 title: "BSides Badge Writeup"
+description: "CTF walkthrough and hardware reverse engineering of BSides Kristiansand 2025 badge"
 theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+markdown: kramdown
